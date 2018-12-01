@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning blockChain",
+  "main": "index.js",
+  "repository": "https://github.com/jaehongjun/TypeChain.git",
+  "author": "jaehongjun <gatsby0391@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js \" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.30"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.1.6"
+  }
+}
